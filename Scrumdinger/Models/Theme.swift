@@ -42,4 +42,8 @@ enum Theme: String {
         default: return Color.white
         }
     }
+    
+    var name: String {
+        rawValue.capitalized
+    }
 }
